@@ -5,11 +5,38 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+  <script src="scripts/app.js" charset="utf-8"></script>
+
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   <title>Calculator Application</title>
 </head>
 <body>
   <h1>Upsilion Calculator</h1>
+  <form id="number">
+    <br><input type="number" id="x" placeholder="value" /></br>
+    <br><input type="number" id="y" placeholder="value" /></br>
+    <div id="operations">
+      <!-- Create 4 buttons for the 4 of mathematical operations on the DOM -->
+      <button type="button" class="addition">+</button>
+      <button type="button" class="subtraction">-</button>
+      <button type="button" class="multiplication">*</button>
+      <button type="button" class="division">/</button>
+    <br>
+    </div>
+    <div id="answer">
+      <!-- <input type="number" id="result" placeholder="answer" /> -->
+
+    </div>
+    </br>
+
+
+
+      <!-- Create a clear button that resets the whole experience -->
+    <button type="reset" value="Reset" id="clear">Clear</button>
+  </form>
+
+
+
 
 </body>
 </html>
